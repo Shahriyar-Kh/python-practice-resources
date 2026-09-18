@@ -6,8 +6,19 @@ venv/
 *venv*/
 virt/
 
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+
 # Django / local data
 *.log
+*.sqlite3
+*.sqlite
+*.db
+
+# Temporary documents
+~$*
 
 # Editors / OS
 .vscode/
